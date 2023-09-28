@@ -14,10 +14,10 @@ export default function Router() {
   return (
     <NavigationContainer>
       <Stack.Navigator>
-        <Stack.Screen name="Home" component={ScreenHome}></Stack.Screen>
-        <Stack.Screen name="Scroll" component={ScreenScroll}></Stack.Screen>
-        <Stack.Screen name="About" component={ScreenAbout}></Stack.Screen>
-        <Stack.Screen name="Test" component={ScreenTest}></Stack.Screen>
+        <Stack.Screen name="Home" component={ScreenHome} options={{headerShown: false}}></Stack.Screen>
+        <Stack.Screen name="Scroll" component={ScreenScroll} options={{headerShown: false}}></Stack.Screen>
+        <Stack.Screen name="About" component={ScreenAbout} options={{headerShown: false}}></Stack.Screen>
+        <Stack.Screen name="Test" component={ScreenTest} options={{headerShown: false}}></Stack.Screen>
       </Stack.Navigator>
     </NavigationContainer>
   );
