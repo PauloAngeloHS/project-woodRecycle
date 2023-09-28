@@ -9,7 +9,7 @@ function Slide(props){
 }
 function FinishButton(){
   return (<Pressable>
-    
+    gi
   </Pressable>)
 }
 export default function Scroll({ navigation }) {
