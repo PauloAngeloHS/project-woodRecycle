@@ -13,6 +13,10 @@ export default function About({ navigation }) {
     <View style={styles.persons}>
       <Person name="Jose Miguel" job="Organizador" image={placeHolder}></Person>
       <Person name="Sofia" job="Organizador" image={placeHolder}></Person>
+      <Person name="Murilo" job="Organizador" image={placeHolder}></Person>
+      <Person name="Paulo" job="Organizador" image={placeHolder}></Person>
+      <Person name="Miguel" job="Organizador" image={placeHolder}></Person>
+      <Person name="Luis Felipe" job="Organizador" image={placeHolder}></Person>
     </View>
     <Pressable onPress={() =>{navigation.navigate('Home')}} style={styles.buttonWrapper}>
       <Text style={styles.buttonText}>Voltar</Text>
