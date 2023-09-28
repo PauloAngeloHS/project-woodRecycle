@@ -3,6 +3,8 @@ import styles from "./styles"
 
 import background from "../../assets/images/backgroundMadeira.jpeg"
 import reciclagem from "../../assets/images/simboloRecicladem.png"
+
+
 export default function Home({ navigation }) {
   return (
     <View style={styles.container}>
@@ -13,10 +15,12 @@ export default function Home({ navigation }) {
       >
         <View style={styles.content}>
         <Image
-        style={styles.image}
+        style={{height: 250, width: 250, justifyContent: "center", alignSelf: "center" }}
         source={reciclagem}
-        />
-      <Text></Text>
+        contentFit="cover"
+      />
+      <Text style={styles.titulo}>Madeira</Text>
+      <View style={styles.botoesCentro}>
         <Pressable
             style={{
               backgroundColor: '#000',
@@ -42,12 +46,13 @@ export default function Home({ navigation }) {
               justifyContent: 'center',
               borderRadius: 30,
             }}
-            onPress={() => navigation.navigate('about')}>
+            onPress={() => navigation.navigate('About')}>
             <Text
               style={{ color: '#fff', fontWeight: 'bold', fontSize: 20 }}>
               Sobre
             </Text>
           </Pressable>
+          </View>
         </View>  
       </ImageBackground>    
     </View>

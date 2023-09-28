@@ -5,18 +5,26 @@ export default styles = new StyleSheet.create({
         backgroundColor: "#044e8f",
         justifyContent: "center",
         alignItems: "center",
+        flexDirection: "column",
       },
       content: {
         flex: 1,
         justifyContent: 'center',
         alignItens: 'center',
         alignSelf: "center",
+        flexDirection:"column",
       },
-      image:{
+      titulo:{
+        fontSize:100,
+        color: "#fff",
+        fontWeight: "bold",
+        textAlign: "center",
+        marginTop: 20,
+      },
+      botoesCentro:{
+        marginTop: 20,
+        display: "flex",
         justifyContent: "center",
-        width:'50%',
-        height: '30%',
         alignItems: "center",
-        // resizeMode:"cover",
-      },
+      }
 });
