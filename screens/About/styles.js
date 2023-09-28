@@ -4,7 +4,8 @@ export default styles = new StyleSheet.create({
     display: "flex",
     justifyContent: "space-evenly",
     flexWrap: "wrap",
-    flexDirection: "row"
+    flexDirection: "row",
+    marginTop: 30,
   },
   personWrapper:{
     height: 150,
@@ -39,4 +40,19 @@ export default styles = new StyleSheet.create({
         width:'50%',
         height: '30%',
       },
+      buttonWrapper:{
+        alignSelf: "center",
+        justifyContent: "center",
+        alignItems: "center",
+        borderRadius: 10,
+        height: 50,
+        backgroundColor: "#000",
+        width: 90,
+        marginTop: 30
+      },
+      buttonText:{
+        color: "#fff",
+        fontSize: 20,
+        fontWeight: "bold",
+      }
 });
