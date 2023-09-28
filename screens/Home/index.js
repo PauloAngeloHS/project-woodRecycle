@@ -10,17 +10,32 @@ export default function Home({ navigation }) {
         source={background} 
         resizeMode="cover" 
         style={{width: '100%', height: "100%"}}
-       >
+      >
         <View style={styles.content}>
         <Image
         style={styles.image}
         source={reciclagem}
-        contentFit="cover"
-      />
+        />
       <Text></Text>
         <Pressable
             style={{
-              backgroundColor: '#b1deef',
+              backgroundColor: '#000',
+              width: 140,
+              height: 55,
+              alignItems: 'center',
+              justifyContent: 'center',
+              borderRadius: 30,
+              marginBottom: 10,
+            }}
+            onPress={() => navigation.navigate('Scroll')}>
+            <Text
+              style={{ color: '#fff', fontWeight: 'bold', fontSize: 20 }}>
+              Trabalho
+            </Text>
+          </Pressable>
+          <Pressable
+            style={{
+              backgroundColor: '#000',
               width: 140,
               height: 55,
               alignItems: 'center',
@@ -29,7 +44,7 @@ export default function Home({ navigation }) {
             }}
             onPress={() => navigation.navigate('about')}>
             <Text
-              style={{ color: '#044e8f', fontWeight: 'bold', fontSize: 20 }}>
+              style={{ color: '#fff', fontWeight: 'bold', fontSize: 20 }}>
               Sobre
             </Text>
           </Pressable>

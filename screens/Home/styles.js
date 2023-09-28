@@ -10,9 +10,13 @@ export default styles = new StyleSheet.create({
         flex: 1,
         justifyContent: 'center',
         alignItens: 'center',
+        alignSelf: "center",
       },
       image:{
+        justifyContent: "center",
         width:'50%',
         height: '30%',
+        alignItems: "center",
+        // resizeMode:"cover",
       },
 });
