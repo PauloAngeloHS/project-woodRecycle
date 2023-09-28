@@ -15,7 +15,7 @@ export default styles = new StyleSheet.create({
         flexDirection:"column",
       },
       titulo:{
-        fontSize:100,
+        fontSize: 90,
         color: "#fff",
         fontWeight: "bold",
         textAlign: "center",
@@ -26,5 +26,5 @@ export default styles = new StyleSheet.create({
         display: "flex",
         justifyContent: "center",
         alignItems: "center",
-      }
+      },
 });
