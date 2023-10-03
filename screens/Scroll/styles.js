@@ -16,10 +16,15 @@ export default styles = new StyleSheet.create({
         alignItems: "center",
       },
       titulo:{
-        fontSize: 90,
+        fontSize: 30,
         color: "#fff",
         fontWeight: "bold",
         textAlign: "center",
         marginTop: 20,
+      },
+      texto:{
+        color: "#fff",
+        marginHorizontal: 10,
+        textAlign: "justify",
       },
 });

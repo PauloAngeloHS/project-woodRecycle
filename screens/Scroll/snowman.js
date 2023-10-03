@@ -26,13 +26,57 @@ export default function Snowman({ navigation }){
             >
                 <View style={styles.content}>
                     <Text style={styles.titulo}>Enfeites para Árvore de Natal</Text>
+                    <View style={{display:"flex",flexDirection:"row", justifyContent: "center"}}>
                     <Image
-                        style={{height: 250, width: 250, justifyContent: "center", alignSelf: "center" }}
+                        style={{height: 100, width: 100, justifyContent: "center", alignSelf: "center"}}
                         source={fotoarame}
                         contentFit="cover"
                     />
-                    <Text></Text>
-                
+                    </View>
+                    <Text style={styles.texto}>Primeiramente juntamos os pregadores, desmontamos eles e fizemos modificações nos arames, os esticando.</Text>
+                    <View style={{display:"flex",flexDirection:"row", justifyContent: "center"}}>
+                    <Image
+                        style={{height: 100, width: 100, justifyContent: "center", alignSelf: "center" }}
+                        source={fotocolando1}
+                        contentFit="cover"
+                    />
+                    <Image
+                        style={{height: 100, width: 100, justifyContent: "center", alignSelf: "center" }}
+                        source={fotocolando2}
+                        contentFit="cover"
+                    />
+                    <Image
+                        style={{height: 100, width: 100, justifyContent: "center", alignSelf: "center" }}
+                        source={fotocolando3}
+                        contentFit="cover"
+                    />
+                    <Image
+                        style={{height: 100, width: 100, justifyContent: "center", alignSelf: "center" }}
+                        source={fotocolado}
+                        contentFit="cover"
+                    />
+                    </View>
+                    <Text style={styles.texto}>Após isso colamos um lado ao outro do pregador e colocando o arame modificado no meio, esse arame se tornará o que segurará os enfeites na árvore.</Text>
+                    <View style={{display:"flex",flexDirection:"row", justifyContent: "center"}}> 
+                    <Image
+                        style={{height: 100, width: 100, justifyContent: "center", alignSelf: "center" }}
+                        source={fotopintando}
+                        contentFit="cover"
+                    />
+                    </View>
+                    <Text style={styles.texto}>Depois só pintamos e está pronto.</Text>
+                    <View style={{display:"flex",flexDirection:"row", justifyContent: "center"}}>
+                    <Image
+                        style={{height: 100, width: 100, justifyContent: "center", alignSelf: "center" }}
+                        source={fotocompleto1}
+                        contentFit="cover"
+                    />
+                    <Image
+                        style={{height: 100, width: 100, justifyContent: "center", alignSelf: "center" }}
+                        source={fotocompleto2}
+                        contentFit="cover"
+                    />
+                    </View>
                     <View style={styles.botoesCentro}>
                         <Pressable
                             style={{
@@ -48,7 +92,7 @@ export default function Snowman({ navigation }){
                         <Text
                             style={{ color: '#fff', fontWeight: 'bold', fontSize: 20 }}
                         >
-                            Sobre
+                            Voltar
                         </Text>
                         </Pressable>
                     </View>
