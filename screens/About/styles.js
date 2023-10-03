@@ -5,7 +5,7 @@ export default styles = new StyleSheet.create({
     justifyContent: "space-evenly",
     flexWrap: "wrap",
     flexDirection: "row",
-    marginTop: 30,
+    marginTop: 60,
   },
   personWrapper:{
     height: 150,
@@ -15,13 +15,18 @@ export default styles = new StyleSheet.create({
         height: 100,
         width: 100,
         alignItems: "center",
-        alignSelf:"center"
+        alignSelf:"center",
+        backgroundColor: "#fff",
+        borderRadius: 300,
     },
     personName:{
-      fontSize: 18
+      fontSize: 18,
+      color: "#fff",
     },
     personJob:{
-      fontSize: 18
+      fontSize: 10,
+      textAlign: "justify",
+      color: "#fff",
     },
     container: {
         flex: 1,
@@ -54,5 +59,8 @@ export default styles = new StyleSheet.create({
         color: "#fff",
         fontSize: 20,
         fontWeight: "bold",
-      }
+      },
+      espaco:{
+        marginBottom: 20,
+      },
 });

@@ -7,7 +7,7 @@
     "icon": "./assets/images/icons/icon.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/images/bananaSplash.png",
+      "image": "./assets/images/simboloRecicladem.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
