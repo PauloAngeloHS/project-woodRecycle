@@ -45,7 +45,7 @@ export default function Scroll({ navigation }) {
 
       </View>
      <View>
-      <Indexes slides={0}/>
+      <Indexes slides={10}/>
       
      </View>
     </View>
