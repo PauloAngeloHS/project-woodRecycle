@@ -21,6 +21,7 @@ export default function Home({ navigation }) {
       />
       <Text style={styles.titulo}>Madeira</Text>
       <View style={styles.botoesCentro}>
+        <View style={{display:"flex", flexDirection:"row"}}>
         <Pressable
             style={{
               backgroundColor: '#000',
@@ -34,9 +35,26 @@ export default function Home({ navigation }) {
             onPress={() => navigation.navigate('Snow')}>
             <Text
               style={{ color: '#fff', fontWeight: 'bold', fontSize: 20 }}>
-              Trabalho
+              Pregadores
             </Text>
           </Pressable>
+          <Pressable
+            style={{
+              backgroundColor: '#000',
+              width: 140,
+              height: 55,
+              alignItems: 'center',
+              justifyContent: 'center',
+              borderRadius: 30,
+              marginBottom: 10,
+            }}
+            onPress={() => navigation.navigate('Box')}>
+            <Text
+              style={{ color: '#fff', fontWeight: 'bold', fontSize: 20 }}>
+              Caixas
+            </Text>
+          </Pressable>
+        </View>
           <Pressable
             style={{
               backgroundColor: '#000',
