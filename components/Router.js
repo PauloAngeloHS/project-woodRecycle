@@ -18,8 +18,8 @@ export default function Router() {
       <Stack.Navigator>
         <Stack.Screen name="Home" component={ScreenHome} options={{headerShown: false}}></Stack.Screen>
         <Stack.Screen name="Scroll" component={ScreenScroll} options={{headerShown: false}}></Stack.Screen>
-        <Stack.Screen name="Scroll" component={ScreenSnowman} options={{headerShown: false}}></Stack.Screen>
-        <Stack.Screen name="Scroll" component={ScreenBox} options={{headerShown: false}}></Stack.Screen>
+        <Stack.Screen name="Snow" component={ScreenSnowman} options={{headerShown: false}}></Stack.Screen>
+        <Stack.Screen name="Box" component={ScreenBox} options={{headerShown: false}}></Stack.Screen>
 
         <Stack.Screen name="About" component={ScreenAbout} options={{headerShown: false}}></Stack.Screen>
         <Stack.Screen name="Test" component={ScreenTest} options={{headerShown: false}}></Stack.Screen>

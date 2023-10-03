@@ -31,7 +31,7 @@ export default function Home({ navigation }) {
               borderRadius: 30,
               marginBottom: 10,
             }}
-            onPress={() => navigation.navigate('Scroll')}>
+            onPress={() => navigation.navigate('Snow')}>
             <Text
               style={{ color: '#fff', fontWeight: 'bold', fontSize: 20 }}>
               Trabalho
